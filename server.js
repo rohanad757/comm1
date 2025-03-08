@@ -43,6 +43,6 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(3000, () => {
+app.listen('https://thriving-khapse-c6e3d5.netlify.app/', () => {
   console.log('Server is running on port 3000');
 });
