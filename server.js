@@ -9,6 +9,7 @@ import productRouter from './ROUTES/productRoute.js';
 import cartRouter from './ROUTES/cartRoute.js';
 import addressRouter from './ROUTES/addressRouter.js'
 import cors from 'cors';
+import path from 'path';
 
 app.use(cors({
     origin: true,
