@@ -12,7 +12,7 @@ import cors from 'cors';
 import path from 'path';
 
 app.use(cors({
-    origin: true,
+    origin: "https://thriving-khapse-c6e3d5.netlify.app/",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
